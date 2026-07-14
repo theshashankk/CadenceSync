@@ -221,6 +221,16 @@ class CadenceSyncApp:
 
     def run(self):
         """Starts the application hooks and boots the main system tray interface."""
+        print("===================================================")
+        print("           CadenceSync is now running!")
+        print("===================================================")
+        print(" -> Check your Windows System Tray (bottom-right taskbar).")
+        print(" -> Note: It might be hidden inside the '^' overflow arrow.")
+        print(" -> To interact: Right-click the icon in the system tray.")
+        print(" -> To exit: Select 'Exit' from the tray menu or press Ctrl+C here.")
+        print("===================================================\n")
+        print("Listening for keystrokes globally...")
+        sys.stdout.flush()
         logging.info("Starting listener thread...")
         self.listener.start()
 
