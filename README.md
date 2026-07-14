@@ -1,5 +1,9 @@
 # CadenceSync
 
+<p align="center">
+  <img src="assets/icon.png" alt="CadenceSync Logo" width="160"/>
+</p>
+
 An open-source Windows system tray app that dynamically adjusts Spotify playback tempo to match your typing speed (Keystrokes Per Minute).
 
 ---
