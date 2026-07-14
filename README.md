@@ -1,6 +1,6 @@
 # CadenceSync
 
-A lightweight Windows system tray application that dynamically adjusts Spotify playback playlists and tempo based on your real-time keyboard typing speed (Keystrokes Per Minute - KPM).
+An open-source Windows system tray app that dynamically adjusts Spotify playback tempo to match your typing speed (Keystrokes Per Minute).
 
 ---
 
@@ -95,4 +95,3 @@ You can run CadenceSync either directly using Python or as a compiled standalone
 3. **Pace-based Tempo Sync**:
    - Start typing! As your typing speed (KPM) shifts, the tray tooltip and menu status will update.
    - If your typing speed stays in a new speed bracket for more than 15 seconds, Spotify will automatically transition your playback to the configured playlist!
-
