@@ -8,6 +8,12 @@ An open-source Windows system tray app that dynamically adjusts Spotify playback
 
 ---
 
+## ⚡ Quick Download
+
+You can download the pre-compiled Windows installer (`CadenceSync_Installer.exe`) directly from the **[GitHub Releases](https://github.com/theshashankk/CadenceSync/releases)** page to run the application immediately without local compilation.
+
+---
+
 ## Features
 - **Dynamic Tempo Matching**: Tracks your KPM over a rolling 60-second sliding window and switches Spotify playlists when you enter different tempo states:
   - **Calm/Debugging Mode** (< 80 KPM) ➡️ Low-tempo music (Lofi beats).
